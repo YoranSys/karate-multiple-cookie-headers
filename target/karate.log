@@ -1,0 +1,101 @@
+14:14:41.535 [main] INFO  com.intuit.karate.Runner - karate.env is: 'mock'
+14:14:42.530 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:14:43.860 [main] INFO  com.intuit.karate - karate.env system property was: mock 
+14:14:43.958 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.verboseExceptions: rate-limit=10 (default)
+14:14:43.969 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.preferredIpV4Addresses:  (default)
+14:14:43.985 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.verboseSocketExceptions: false (default)
+14:14:43.985 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.verboseResponses: false (default)
+14:14:44.098 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.useEpoll: true (default)
+14:14:44.099 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.transportType: epoll (default)
+14:14:44.102 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.maxNumConnections: 2147483647 (default)
+14:14:44.102 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.numCommonWorkers: 16 (default)
+14:14:44.103 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.numCommonBlockingTaskThreads: 200 (default)
+14:14:44.113 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultMaxRequestLength: 10485760 (default)
+14:14:44.117 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultMaxResponseLength: 10485760 (default)
+14:14:44.119 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultRequestTimeoutMillis: 10000 (default)
+14:14:44.121 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultResponseTimeoutMillis: 15000 (default)
+14:14:44.126 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultConnectTimeoutMillis: 3200 (default)
+14:14:44.129 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultWriteTimeoutMillis: 1000 (default)
+14:14:44.130 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultServerIdleTimeoutMillis: 15000 (default)
+14:14:44.132 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultClientIdleTimeoutMillis: 10000 (default)
+14:14:44.134 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultPingIntervalMillis: 0 (default)
+14:14:44.137 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultMaxServerNumRequestsPerConnection: 0 (default)
+14:14:44.137 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultMaxClientNumRequestsPerConnection: 0 (default)
+14:14:44.138 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultMaxServerConnectionAgeMillis: 0 (default)
+14:14:44.140 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultMaxClientConnectionAgeMillis: 0 (default)
+14:14:44.142 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultHttp2InitialConnectionWindowSize: 1048576 (default)
+14:14:44.144 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultHttp2InitialStreamWindowSize: 1048576 (default)
+14:14:44.145 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultHttp2MaxFrameSize: 16384 (default)
+14:14:44.147 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultHttp2MaxStreamsPerConnection: 2147483647 (default)
+14:14:44.148 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultHttp2MaxHeaderListSize: 8192 (default)
+14:14:44.149 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultHttp1MaxInitialLineLength: 4096 (default)
+14:14:44.150 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultHttp1MaxHeaderSize: 8192 (default)
+14:14:44.150 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultHttp1MaxChunkSize: 8192 (default)
+14:14:44.151 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultUseHttp2Preface: true (default)
+14:14:44.151 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultUseHttp1Pipelining: false (default)
+14:14:44.152 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultBackoffSpec: exponential=200:10000,jitter=0.2 (default)
+14:14:44.153 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.defaultMaxTotalAttempts: 10 (default)
+14:14:44.154 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.routeCache: maximumSize=4096 (default)
+14:14:44.154 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.routeDecoratorCache: maximumSize=4096 (default)
+14:14:44.154 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.parsedPathCache: maximumSize=4096 (default)
+14:14:44.155 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.headerValueCache: maximumSize=4096 (default)
+14:14:44.156 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.cachedHeaders: :authority,:scheme,:method,accept-encoding,content-type (default)
+14:14:44.156 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.fileServiceCache: maximumSize=1024 (default)
+14:14:44.157 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.dnsCacheSpec: maximumSize=4096 (default)
+14:14:44.157 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.annotatedServiceExceptionVerbosity: unhandled (default)
+14:14:44.159 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.useJdkDnsResolver: false (default)
+14:14:44.160 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.reportBlockedEventLoop: true (default)
+14:14:44.161 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.validateHeaders: true (default)
+14:14:44.161 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.tlsAllowUnsafeCiphers: false (default)
+14:14:44.162 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.transientServiceOptions:  (default)
+14:14:44.170 [main] INFO  k.com.linecorp.armeria.common.Flags - karate.com.linecorp.armeria.useLegacyRouteDecoratorOrdering: false (default)
+14:14:44.170 [main] INFO  k.com.linecorp.armeria.common.Flags - Using /dev/epoll
+14:14:44.420 [main] INFO  com.intuit.karate - mock server initialized: /home/yofab/dev/github/karate-multiple-cookie-headers/target/test-classes/mock/web/redirect-mock.feature
+14:14:44.461 [main] INFO  k.c.l.armeria.common.util.SystemInfo - hostname: rca-p222 (from /proc/sys/kernel/hostname)
+14:14:44.776 [armeria-boss-http-*:33171] INFO  k.com.linecorp.armeria.server.Server - Serving HTTP at /0:0:0:0:0:0:0:0%0:33171 - http://127.0.0.1:33171/
+14:14:44.780 [main] DEBUG com.intuit.karate.http.HttpServer - server started: rca-p222:33171
+14:14:45.251 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:33171/login
+1 > Cookie: bar=Bar; foo=Foo
+1 > Host: localhost:33171
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:14:45.638 [armeria-common-worker-epoll-2-1] DEBUG com.intuit.karate - scenario matched at line 5: pathMatches('/login')
+14:14:45.775 [main] DEBUG com.intuit.karate - request:
+2 > GET http://localhost:33171/login
+2 > Cookie: bar=Bar; foo=Foo
+2 > Cookie: newCookie='likeIt'
+2 > Host: localhost:33171
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:14:45.800 [armeria-common-worker-epoll-2-1] DEBUG com.intuit.karate - default scenario matched at line: 10
+14:14:45.810 [main] DEBUG com.intuit.karate - response time in milliseconds: 24
+2 < 200
+2 < content-type: application/json
+2 < content-length: 172
+2 < server: Armeria/1.8.0
+2 < date: Thu, 30 Sep 2021 12:14:45 GMT
+2 < Set-Cookie: newCookie='likeIt'; Domain=localhost
+{"host":["localhost:33171"],"cookie":["bar=Bar; foo=Foo; newCookie='likeIt'"],"accept-encoding":["gzip,deflate"],"user-agent":["Apache-HttpClient\/4.5.13 (Java\/11.0.11)"]}
+14:14:45.820 [main] INFO  com.intuit.karate - {
+  "host": [
+    "localhost:33171"
+  ],
+  "cookie": [
+    "bar=Bar; foo=Foo; newCookie='likeIt'"
+  ],
+  "accept-encoding": [
+    "gzip,deflate"
+  ],
+  "user-agent": [
+    "Apache-HttpClient/4.5.13 (Java/11.0.11)"
+  ]
+}
+ 
+14:14:46.958 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:mock/web/redirect-test.feature
